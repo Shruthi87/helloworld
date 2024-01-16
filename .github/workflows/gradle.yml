@@ -36,7 +36,5 @@ jobs:
       with:
         arguments: build
   
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
+  
        
